@@ -19,13 +19,13 @@ const App = () => {
       <div className="app">
         <ToastContainer />
         <Navbar setShowLogin={setShowLogin} />
+        <h3>DevOps Pipeline Successfully Implemented</h3>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="/verify" element={<Verify />} />
           <Route path="/myorders" element={<MyOrders />} />
-          <h3>DevOps Pipeline Successfully Implemented</h3>
         </Routes>
       </div>
       <Footer />
