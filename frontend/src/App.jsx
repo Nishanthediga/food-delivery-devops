@@ -19,7 +19,6 @@ const App = () => {
       <div className="app">
         <ToastContainer />
         <Navbar setShowLogin={setShowLogin} />
-        <h3>Successfully Implemented</h3>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
